@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3079645775807311431
+--- !u!1 &149846797561892173
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9102202947720628713}
-  - component: {fileID: 4527699651958356883}
-  - component: {fileID: 5632334109629588389}
-  - component: {fileID: 1619288959490330693}
-  - component: {fileID: 3244542795303335157}
+  - component: {fileID: 335251009712851170}
+  - component: {fileID: 4635570161158829474}
+  - component: {fileID: 8013695819639363967}
+  - component: {fileID: 6756899523401028334}
+  - component: {fileID: 9139925851114835046}
   m_Layer: 0
-  m_Name: Grape
+  m_Name: Apple
   m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9102202947720628713
+--- !u!4 &335251009712851170
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3079645775807311431}
+  m_GameObject: {fileID: 149846797561892173}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.14163226, y: 2.6207364, z: 0}
-  m_LocalScale: {x: 1.9899999, y: 1.9899999, z: 1.9899999}
+  m_LocalPosition: {x: -0.2737851, y: -2.5908966, z: 0}
+  m_LocalScale: {x: 3.5599997, y: 3.5599997, z: 3.5599997}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 4999992207922231430}
+  - {fileID: 1367231224076739880}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4527699651958356883
+--- !u!212 &4635570161158829474
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3079645775807311431}
+  m_GameObject: {fileID: 149846797561892173}
   m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.7612462, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.07843135, g: 0.972549, b: 0.3818585, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -88,13 +88,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &5632334109629588389
+--- !u!58 &8013695819639363967
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3079645775807311431}
+  m_GameObject: {fileID: 149846797561892173}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -123,14 +123,14 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!50 &1619288959490330693
+--- !u!50 &6756899523401028334
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3079645775807311431}
+  m_GameObject: {fileID: 149846797561892173}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -150,21 +150,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &3244542795303335157
+--- !u!114 &9139925851114835046
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3079645775807311431}
+  m_GameObject: {fileID: 149846797561892173}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f23ee7e5bd7cbc479e04c5e7a530f8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fruitLanded: 0
-  fruitTier: 2
---- !u!1 &5221896808899401992
+  fruitTier: 4
+--- !u!1 &2162677284472271751
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,37 +172,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4999992207922231430}
-  - component: {fileID: 9175955458005726628}
+  - component: {fileID: 1367231224076739880}
+  - component: {fileID: 7498871761716810796}
   m_Layer: 0
-  m_Name: 6f62c4287b82a679076f0faeec2126fa-removebg-preview
+  m_Name: kawaii-mustache-apple-cartoon-vector-33008614-removebg-preview
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4999992207922231430
+--- !u!4 &1367231224076739880
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5221896808899401992}
+  m_GameObject: {fileID: 2162677284472271751}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.009518287, y: 0.06541994, z: 0}
-  m_LocalScale: {x: 0.2888889, y: 0.2888889, z: 0.2888889}
+  m_LocalPosition: {x: 0.008, y: 0.139, z: 0}
+  m_LocalScale: {x: 0.62, y: 0.62, z: 0.62}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 9102202947720628713}
+  m_Father: {fileID: 335251009712851170}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &9175955458005726628
+--- !u!212 &7498871761716810796
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5221896808899401992}
+  m_GameObject: {fileID: 2162677284472271751}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -237,12 +237,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ceab90530cf4d6843b92df4a5875fd2a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7802c11e77fbb344da5a42d126211ff1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.99, y: 4.99}
+  m_Size: {x: 2.5, y: 2.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
